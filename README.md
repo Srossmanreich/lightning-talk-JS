@@ -1,7 +1,8 @@
 # Maintainable JavaScript
 
 ###Modular JavaScript
-[modular javascript youtube link](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f)
+[modular javascript youtube link](https://www.youtube.com/playlist?lis
+t=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f)
 <br />
 <br />
 **Some ground rules:**
