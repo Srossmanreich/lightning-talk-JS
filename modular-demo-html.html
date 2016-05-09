@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Demo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="container">
+    <div class="page-header text-center">
+      <h1>Demo</h1>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="jumbotron">
+      <form id="todo-input-form">
+        <label>Title:</label>
+        <input type="text">
+        <input type="submit">
+      </form>
+    </div>
+
+    <h3 class="sub-header">Total todos: <span id="number-of-todo">1</span></h3>
+    <div class="table-responsive">
+      <table class="table table-striped" id="todo-table">
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Wash dishes</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script type="text/javascript" src="modular-demo.js"></script>
+</body>
+</html>
