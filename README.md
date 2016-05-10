@@ -15,7 +15,7 @@ t=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f)
 - memory leak
   events should be able to unbinded
 - revealing module pattern
-    - making private functions and variable
+    - making private functions and variable\
 - pubsub pattern: mediator that talks to other modules. This is a great pattern to learn so will scale your app futher. Because all the modules or events or functions they are talking each other thru this pubsub mediator without directly interacting with each other, so when some of the module changes, won't effect other part of program
 
 **classical and prototypal**
