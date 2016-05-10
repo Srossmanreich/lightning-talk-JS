@@ -1,26 +1,26 @@
-(function() {
-  var todoList = [];
+var todoList = [];
 
-  $("#todo-input-form").on("submit", function(event) {
-    event.preventDefault();
+$("#todo-input-form").on("submit", function(event) {
+  event.preventDefault();
+// get input
+  var input = $(this).find('input[type=text]').val();
+  todoList.push(input);
 
-    var input = $(this).find('input[type=text]').val();
-    todoList.push(input);
+
+// updating dom
+  $("#todo-table-body").empty();
+
+  for(var i = 0; i < todoList.length; i++) {
+    $("#todo-table-body").append("<tr><td>" + (i + 1) + "</td><td>" + todoList[i] + "</td></tr>")
+  }
+//update number of total tasks display
+  $("#number-of-todo").text(todoList.length);
+
+//clear the input text field
+  $(this).find('input[type=text]').val('');
+});
 
 
-  // updating dom
-    $("#todo-table-body").empty();
-
-    for(var i = 0; i < todoList.length; i++) {
-      $("#todo-table-body").append("<tr><td>" + (i + 1) + "</td><td>" + todoList[i] + "</td></tr>")
-    }
-
-    $("#number-of-todo").text(todoList.length);
-
-    $(this).find('input[type=text]').val('');
-  });
-
-})();
 
 
 
