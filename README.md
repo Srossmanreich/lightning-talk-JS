@@ -5,7 +5,7 @@
 t=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f)
 <br />
 <br />
-**Some ground rules:**
+**Some basic rules:**
 - self-contained module
     - everything to do with a specific module should be in that module
     - no global variables
@@ -35,7 +35,4 @@ t=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f)
 ```
   - prototypal
      - using ```Object.create(objectName); ```to create inherite all the properties of passed object
-```
 
-
-```
